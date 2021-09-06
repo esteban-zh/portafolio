@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(78, 73, 73);
+}
+
+@media (max-width: 400px) {
+  .cuadros {
+    font-size: 5px;
+  }
+}
+@media (max-width: 400px) {
+  .header {
+    font-size: 5px;
+  }
+}
+@media (min-width: 400px) {
+  .header {
+    font-size: 8px;
+  }
+}
+@media (min-width: 768px) {
+  .header {
+    font-size: 15px;
+  }
+}
+@media (min-width: 400px) {
+  .cuadros {
+    font-size: 8px;
+  }
+}
+@media (min-width: 768px) {
+  .cuadros {
+    font-size: 13px;
+  }
+}
+@media (min-width: 1000px) {
+  .cuadros {
+    font-size: 16px;
+  }
+}
+
+.header {
+  padding: 2%;
+  margin: 0% 5% 0% 5%;
+  text-align: center;
+  background-color: #cbccce;
+  border-radius: 50%;
+  /* font-family: "Annie Use Your Telescope", cursive; */
+  /* font-family: "Bad Script", cursive; */
+  /* font-family: "Homemade Apple", cursive; */
+  /* font-family: "Marck Script", cursive; */
+  font-family: "Nothing You Could Do", cursive;
+  /* font-family: "Pinyon Script", cursive; */
+  /* font-family: "Sriracha", cursive; */
+  box-shadow: 20px 20px 10px black;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0% 0% 0% 4%;
+}
+.cuadros p {
+  position: absolute;
+  bottom: 10%;
+}
+
+.cuadros h3 {
+  position: absolute;
+  bottom: 30%;
+}
+
+.cuadros {
+  padding: 5% 5% 20% 5%;
+  margin: 2%;
+  width: 20%;
+  /* border: solid black 1px; */
+  /* display: inline-block; */
+  background-image: url(img/github+logo+media+online+share+social+icon-1320168531065664237_512.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: 60% 0%;
+  position: relative;
+  background-color: #cbccce;
+  border-radius: 10px;
+  box-shadow: 20px 20px 10px black;
+}
+
+img {
+  width: 20%;
+  height: 20%;
+  margin: 2% 0% 2% 0%;
+  border-radius: 100%;
+}
